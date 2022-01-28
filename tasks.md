@@ -9,7 +9,7 @@ Write README.md file with the information about the project
 
 ## Task 2
 Describe the three routes that leads to the web-pages
-Write three web pates to validate the routes
+Write three web pages to validate the routes
 Write test cases
 
 ## Task 3
