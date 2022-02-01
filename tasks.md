@@ -10,7 +10,7 @@
 ## Task 2: Application skeleton
 - [X] Describe the three routes that leads to the web-pages
 - [X] Write three web pages to validate the routes
-- [ ] Write test cases
+- [X] Write test cases
 
 ## Task 3: Personal page and stylesheets
 - [ ] Write the personal page
