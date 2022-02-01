@@ -1,17 +1,17 @@
 require 'sinatra'
 
 get '/' do
-  'Link All routes'
+  'Links to web-pages:'
 end
 
 get '/info' do
-  'Personal information'
+  erb :info
 end
 
 get '/prs-other-pages' do
-  'Links with PRs to the other pages'
+  erb :pullrequests
 end
 
 get '/academic-bg' do
-  'Academic curriculum'
+  erb :academic
 end

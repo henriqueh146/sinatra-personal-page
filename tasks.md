@@ -1,23 +1,26 @@
 # Tasks
 
-## Task 1
-Set up the application environment (Sinatra, Bundle and Rspec)
-Generate Gemfile
-Break the problem down into subtasks
-Test Sinatra with the "Hello-World" page
-Write README.md file with the information about the project
+## Task 1: Basic set-up 
+- [X] Set up the application environment (Sinatra, Bundle and Rspec)
+- [X] Generate Gemfile
+- [X] Break the problem down into subtasks
+- [X] Test Sinatra with the "Hello-World" page
+- [X] Write README.md file with the information about the project
 
-## Task 2
-Describe the three routes that leads to the web-pages
-Write three web pages to validate the routes
-Write test cases
+## Task 2: Application skeleton
+- [X] Describe the three routes that leads to the web-pages
+- [X] Write three web pages to validate the routes
+- [ ] Write test cases
 
-## Task 3
-Write the personal page
-Write the stylesheets applicable for all pages
+## Task 3: Personal page and stylesheets
+- [ ] Write the personal page
+- [ ] Write the stylesheets applicable for all pages
+- [ ] Write test cases
 
-## Task 4
-Write the page with the links to the project's PRs
+## Task 4: Project's PRs page
+- [ ] Write the page with the links to the project's PRs
+- [ ] Write test cases
 
-## Task 5
-Write the page with the academic background
+## Task 5: Academic background page
+- [ ] Write the page with the academic background
+- [ ] Write test cases
