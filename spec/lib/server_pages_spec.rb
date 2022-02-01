@@ -1,27 +1,28 @@
 # frozen_string_literal: false
 
-require_relative '../../server_pages'
+require 'server_pages'
+require 'rack/test'
+
+def app
+  Sinatra::Application
+end
 
 set :environment, :test
 describe 'Server pages app' do
   include Rack::Test::Methods
 
-  def app
-    Sinatra::Application
-  end
-
   it 'Load the personal page (info)' do
     get '/info'
-    expect(last_response).to be_ok
+    last_response.status.should == 200
   end
 
   it 'Load the PR page' do
     get '/prs'
-    expect(last_response).to be_ok
+    last_response.status.should == 200
   end
 
   it 'Load the academic background page' do
     get '/academic-bg'
-    expect(last_response).to be_ok
+    last_response.status.should == 200
   end
 end
